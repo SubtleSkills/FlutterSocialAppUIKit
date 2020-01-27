@@ -5,6 +5,7 @@ import 'package:social_app_ui/util/const.dart';
 
 
 void main() async{
+  WidgetsFlutterBinding.ensureInitialized();
   SystemChrome.setPreferredOrientations([DeviceOrientation.portraitUp]).then((_) {
     runApp(MyApp());
   });
